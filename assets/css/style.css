@@ -1,0 +1,1197 @@
+body {
+    margin: 0;
+}
+
+.background {
+    background-image: url(../image/bg.png);
+    background-repeat: no-repeat;
+}
+
+.header {
+    position: fixed;
+    z-index: 50;
+    top: 0px;
+    left: 0px;
+    width: 1200px;
+    height: 100px;
+    background-color: #52BBD2;
+}
+header::before{
+    content: '';
+    z-index: 5;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1200px;
+    height: 100px;
+}
+
+.header-line {
+    z-index: 5;
+    width: 1200px;
+    height: 100px;
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.header-logo {
+    z-index: 5;
+    width: 106px;
+    height: 58px;
+}
+
+.header-burger{
+    display: none;
+}
+
+.header-list {
+    display: flex;
+    padding-inline-start: 0px;
+}
+
+li{
+    list-style: none;
+}
+
+.nav-item-1 {
+    margin-left: 0px;
+    text-decoration: none;
+    width: 124px;
+    height: 37px;
+    
+    font-family: 'Consolas';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 37px;
+    
+    color: #FFFFFF;
+    
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.nav-item-2 {
+    margin-left: 150px;
+    text-decoration: none;
+    width: 71px;
+    height: 37px;
+    
+    font-family: 'Consolas';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 37px;
+    
+    color: #FFFFFF;
+}
+
+.nav-item-3 {
+    margin-left: 150px;
+    text-decoration: none;
+    width: 159px;
+    height: 37px;
+    
+    font-family: 'Consolas';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 37px;
+    
+    color: #FFFFFF;
+}
+
+.nav-item-4 {
+    margin-left: 150px;
+    text-decoration: none;
+    width: 106px;
+    height: 37px;
+
+    font-family: 'Consolas';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 37px;
+
+    color: #FFFFFF;
+}
+
+.sign { 
+    padding-top: 100px;
+    border-radius: 15px;
+    margin-top: 0px;
+    margin-left: 70px;
+    width: 300px;
+    height: 413px;
+}
+ 
+.entr {
+    margin-top: 0px;
+    margin-left: 116px;
+    margin-bottom: 0px;
+    width: 208px;
+    height: 50px;
+    font-family: 'Consolas';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+
+    color: #FFFFFF;
+}
+.email {
+    width: 300px;
+    height: 94px;
+    
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 15px;
+}
+
+.email-text {
+    width: 217.21px;
+    height: 22.67px;
+    margin-top: 0px;
+    margin-left: 41px;
+    font-family: 'Consolas';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.email-input {
+    margin-left: 65px;
+}
+
+.sign-in {
+    width: 300px;
+    height: 94px;
+    margin-top: 13px;
+    background: #79B5CF;
+    border-radius: 15px;
+}
+
+.sign-in-text {
+    position: absolute;
+    text-decoration: none;
+    width: 217.21px;
+    height: 22.67px;
+    padding-top: 24px;
+    margin-left: 41px;
+    margin-top: 0px;
+    font-family: 'Consolas';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    
+    color: #000000;
+    
+}
+
+.first-text {
+    width: 257px;
+    height: 28px;
+    margin-top: 20px;
+    margin-left: 22px;
+    font-family: 'Consolas';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+.sign-up {
+    width: 300px;
+    height: 94px;
+    background: #FFFFFF;
+    border-radius: 15px;
+}
+
+.sign-up-text {
+    position: absolute;
+    text-decoration: none;
+    height: 37px;
+    padding-top: 29px;
+    margin-left: 18px;
+    margin-top: 0px;
+    font-family: 'Consolas';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 37px;
+    text-align: center;
+    
+    color: #000000;
+    
+}
+
+.travel {
+    display: flex;
+    margin-top: 38px;
+    width: 1117px;
+    height: 102px;
+}
+
+.where-from {
+    background: rgba(217, 217, 217, 0.7);
+    border-radius: 15px;
+    margin-left: 20px;
+    width: 212px;
+    height: 99px;
+}
+
+ .where-from-text {
+    width: 80px;
+    height: 28px;
+    margin-left: 66px;
+    margin-top: 15px;
+    
+    font-family: 'Consolas';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    
+    color: rgba(0, 0, 0, 0.5);
+ }
+
+.where-from-input {
+    margin-left: 20px;
+}
+
+.where-to {
+    background: rgba(217, 217, 217, 0.7);
+    border-radius: 15px;
+    margin-left: 36px;
+    width: 212px;
+    height: 99px;
+}
+
+.where-to-text {
+    width: 53px;
+    height: 28px;
+    margin-left: 79.5px;
+    margin-top: 15px;
+
+    font-family: 'Consolas';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.where-to-input {
+    margin-left: 20px;
+}
+
+.departure{
+    background: rgba(217, 217, 217, 0.7);
+    border-radius: 15px;
+    margin-left: 36px;
+    width: 212px;
+    height: 99px;
+}
+
+.departure-text {
+    width: 146px;
+    height: 28px;
+    margin-left: 33px;
+    margin-top: 18px;
+    
+    font-family: 'Consolas';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.departure-input{
+    margin-left: 20px;
+}
+
+.duration{
+    background: rgba(217, 217, 217, 0.7);
+    border-radius: 15px;
+    margin-left: 36px;
+    width: 212px;
+    height: 99px;
+}
+
+.duration-text {
+    width: 132px;
+    height: 28px;
+    margin-left: 33px;
+    margin-top: 18px;
+    
+    font-family: 'Consolas';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.duration-input{
+    margin-left: 20px;
+}
+
+.find{
+    background: rgba(99, 174, 203, 0.7);
+    border-radius: 15px;
+    margin-left: 36px;
+    width: 125px;
+    height: 97px;
+}
+
+.find-button {
+    position: absolute;
+    text-decoration: none;
+    width: 66px;
+    height: 28px;
+    margin-left: 30px;
+    margin-top: 33px;
+    
+    font-family: 'Consolas';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    
+    color: #FFFFFF;
+}
+
+.hot-tour-text {
+    width: 242px;
+    height: 47px;
+    font-family: 'Consolas';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    margin-left: 479px;
+    margin-top: 87px;
+
+    color: #CC4043;
+}
+.hot-tour {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+
+.first-tour {
+    background: rgba(217, 217, 217, 0.7);
+    border-radius: 15px;
+    margin-left: 19px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 370px;
+    height: 259.6px;
+}
+
+.first-tour-image {
+    display: flex;
+    justify-content: center;
+}
+.first-tour-where {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Consolas';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #000000;
+}
+
+.first-tour-time {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.first-tour-time-logo{
+    display: flex;
+    justify-content: space-between;
+}
+   
+.first-tour-time-text {
+    font-family: 'Consolas';
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30.92px;
+    margin-top: 18.66px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+}
+
+.first-tour-price {
+    display: flex;
+    justify-content: center;
+}
+
+.first-tour-price-logo {
+    display: flex;
+    justify-content: center;
+}
+
+
+.first-tour-price-text-one {
+    display: flex;
+    justify-content: center;
+    font-family: 'Consolas';
+    font-style: normal;
+    margin-left: 13.01px;
+    margin-top: 5.61px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    
+    color: #000000;
+    
+}
+
+.first-tour-price-text-two{
+    display: flex;
+    justify-content: center;
+    font-family: 'Consolas';
+    font-style: normal;
+    margin-left: 9px;
+    margin-top: 11.61px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+
+    color: #000000;
+}
+
+
+.second-tour {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background: rgba(217, 217, 217, 0.7);
+    border-radius: 15px;
+    margin-left: 19px;
+    width: 370px;
+    height: 259.6px;
+}
+
+.second-tour-image {
+    display: flex;
+    justify-content: center;
+}
+.second-tour-where {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Consolas';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #000000;
+}
+
+.second-tour-time {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.second-tour-time-logo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.second-tour-time-text {
+    display: flex;
+    justify-content: center;
+    margin-left: 30.92px;
+    margin-top: 18.66px;
+    font-family: 'Consolas';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+}
+
+.second-tour-price {
+    display: flex;
+    justify-content: center;
+}
+
+.second-tour-price-logo {
+    display: flex;
+    justify-content: center;
+}
+
+.second-tour-price-text-one {
+    display: flex;
+    justify-content: center;
+    margin-left: 13.01px;
+    margin-top: 5.61px;
+    font-family: 'Consolas';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    
+    color: #000000;
+    
+}
+
+.second-tour-price-text-two{
+    display: flex;
+    justify-content: center;
+    margin-left: 9px;
+    margin-top: 11.61px;
+    font-family: 'Consolas';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+
+    color: #000000;
+}
+
+
+.third-tour{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background: rgba(217, 217, 217, 0.7);
+    border-radius: 15px;
+    margin-left: 26px;
+    width: 370px;
+    height: 259.6px;
+}
+
+.third-tour-image {
+    display: flex;
+    justify-content: center;
+}
+
+.third-tour-where {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Consolas';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #000000;
+}
+
+.third-tour-time {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.third-tour-time-logo {
+    display: flex;
+    justify-content: space-between
+}
+
+.third-tour-time-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 88.74px;
+    height: 31.73px;
+    margin-left: 30.92px;
+    margin-top: 18.66px;
+    font-family: 'Consolas';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+}
+
+.third-tour-price {
+    display: flex;
+    justify-content: center;
+}
+
+.third-tour-price-logo {
+    display: flex;
+    justify-content: center;
+}
+
+.third-tour-price-text-one {
+    display: flex;
+    justify-content: center;
+    margin-left: 13.01px;
+    margin-top: 5.61px;
+    font-family: 'Consolas';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    
+    color: #000000;
+    
+}
+
+.third-tour-price-text-two{
+    display: flex;
+    justify-content: center;
+    margin-left: 9px;
+    margin-top: 11.61px;
+    font-family: 'Consolas';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+
+    color: #000000;
+}
+
+.random-travel-form {
+    width: 374px;
+    height: 45.4px;
+    margin-left: 415px;
+    margin-top: 32.4px;
+    
+    background: rgba(217, 217, 217, 0.7);
+}
+
+.random-travel-text {
+    width: 374px;
+    height: 47px;
+    
+    font-family: 'Consolas';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+
+    color: #FFFFFF;
+    
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.random-travel{
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-left: 19px;
+    width: 1162px;
+    height: 593px;
+    
+    background: rgba(217, 217, 217, 0.7);
+    border-radius: 15px;
+}
+
+.random-travel-try {
+    width: 528px;
+    height: 37px;
+    padding-top: 39px;
+    margin-left: 317px;
+    font-family: 'Consolas';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 37px;
+    
+    color: #000000;
+    
+}
+
+.random-travel-quest {
+    width: 405px;
+    height: 37px;
+    margin-top: 54px;
+    margin-left: 67px;
+    font-family: 'Consolas';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 37px;
+    
+    color: #000000;
+}
+
+.proposition {
+    display: flex;
+}
+
+.america {
+    margin-top: 40px;
+    margin-left: 13px;
+    width: 272px;
+    height: 233.21px;
+}
+
+.america-image {
+    width: 272px;
+    height: 176px;
+}
+
+.america-form {
+    margin-top: 18px;
+    width: 272px;
+    height: 39.21px;
+    
+    background: rgba(217, 217, 217, 0.7);
+}
+
+.america-text {
+    width: 163.66px;
+    height: 31.21px;
+    padding-top: 8px;
+    margin-left: 54px;
+    font-family: 'Consolas';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    
+    color: #000000;
+
+}
+
+.europe {
+    margin-top: 37px;
+    margin-left: 12px;
+    width: 272px;
+    height: 236.21px;
+}
+
+.europe-image {
+    width: 272px;
+    height: 181.33px;
+}
+
+.europe-form {
+    margin-top: 15.67px;
+    width: 272px;
+    height: 38.83px;
+    
+    background: rgba(217, 217, 217, 0.7);
+}
+
+.europe-text {
+    width: 163.66px;
+    height: 31.21px;
+    padding-top: 8px;
+    margin-left: 54px;
+    font-family: 'Consolas';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    
+    color: #000000;
+
+}
+
+.asia {
+    margin-top: 40px;
+    margin-left: 11px;
+    width: 272px;
+    height: 233.21px;
+}
+
+.asia-image {
+    width: 272px;
+    height: 176px;
+}
+
+.asia-form {
+    margin-top: 18px;
+    width: 272px;
+    height: 38.83px;
+    
+    background: rgba(217, 217, 217, 0.7);
+}
+
+.asia-text {
+    width: 163.66px;
+    height: 31.21px;
+    padding-top: 8px;
+    margin-left: 54px;
+    font-family: 'Consolas';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    
+    color: #000000;
+
+}
+
+.random {
+    margin-top: 35px;
+    margin-left: 12px;
+    width: 272px;
+    height: 242.21px;
+}
+
+.random-image {
+    width: 272px;
+    height: 176px;
+}
+
+.random-form {
+    margin-top: 16.67px;
+    width: 272px;
+    height: 38.83px;
+    
+    background: rgba(123, 182, 208, 0.7);
+}
+
+.random-text {
+    width: 163.66px;
+    height: 31.21px;
+    padding-top: 8px;
+    margin-left: 54px;
+    font-family: 'Consolas';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    
+    color: #000000;
+
+}
+
+.photo-tourists{
+    width: 1200px;
+    height: 273px;
+
+    background: #D9D9D9;
+}
+
+.photo-tourists-text {
+    width: 669px;
+    height: 75px;
+    margin-top: 0px;
+    padding-top: 99px;
+    margin-left: 265px;
+    font-family: 'Consolas';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #000000;
+}
+
+.transparent-bg {
+    width: 1200px;
+    height: 1000px;
+}
+
+img {
+    object-fit: cover;
+}
+
+.photo-tourists-slides{
+    list-style:none;
+    margin:0;
+    padding:0;
+    object-fit: cover;
+    height: 1000px;
+}
+
+.photo-tourists-slides,
+.photo-tourists-slides:after{
+    width: 1200px;
+    height: 1000px;
+    top:0px;
+    object-fit: cover;
+    left:0px;
+}
+
+.photo-tourists-slides:after { 
+    content: '';
+    object-fit: cover;
+    height: 1000px;
+    background: transparent url(../image/photo-1.png) repeat top left;
+}
+
+.photo-tourists-slides li{
+    width: 1200px;
+    height: 1000px;
+    position:absolute;
+    top:2093;
+    left:0;
+    object-fit: cover;
+    background-size:cover;
+    background-repeat:no-repeat;
+    opacity:0;
+    -webkit-animation: anim_slides 18s linear infinite 0s;
+    -moz-animation: anim_slides 18s linear infinite 0s;
+    -o-animation: anim_slides 18s linear infinite 0s;
+    -ms-animation: anim_slides 18s linear infinite 0s;
+    animation: anim_slides 18s linear infinite 0s;
+}
+
+.photo-tourists-slides li:nth-child(1){
+    background-image: url(../image/photo-1.png) 
+}
+
+.photo-tourists-slides li:nth-child(2){
+    -webkit-animation-delay: 6.0s;
+    -moz-animation-delay: 6.0s;
+    background-image: url(../image/photo-2.png) 
+}
+
+.photo-tourists-slides li:nth-child(3){
+    -webkit-animation-delay: 12.0s;
+    -moz-animation-delay: 12.0s;
+    background-image: url(../image/photo-3.png) 
+}
+
+@-webkit-keyframes anim_slides {
+    0% {opacity:0;}
+    6% {opacity:1;}
+    24% {opacity:1;}
+    30% {opacity:0;}
+    100% {opacity:0;}
+}
+
+@-moz-keyframes anim_slides {
+    0% {opacity:0;}
+    6% {opacity:1;}
+    24% {opacity:1;}
+    30% {opacity:0;}
+    100% {opacity:0;}
+}
+
+.video1{
+    border-radius: 50px;
+    background: cover;
+}
+.video1:hover {
+    color: white; 
+    box-shadow: 0 50px 80px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    text-align: center;
+    height: 70%;
+    -webkit-filter: blur(5px);
+  filter: blur(0px);
+    width: 60%; 
+}
+
+.about-us {
+    width: 1200px;
+    height: 733px;
+   
+    background: rgba(217, 217, 217, 0.7);
+    border-radius: 15px;
+}
+
+.about-us-first-text {
+    width: 188px;
+    height: 59px;
+    padding-top: 68px;
+    margin-left: 55px;
+    font-family: 'Consolas';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 47px;
+    
+    color: #000000;
+}
+.about-us-second-text {
+    width: 1039.93px;
+    height: 341.75px;
+    margin-top: 140px;
+    margin-left: 80px;
+    font-family: 'Consolas';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 37px;
+    text-align: center;
+    
+    color: #000000;
+}
+
+.form{
+    background: rgba(99, 174, 203, 0.7);
+    border-radius: 15px;
+    margin-left: 500px;
+    width: 170px;
+    height: 80px;
+}
+
+.form-button {
+    position: absolute;
+    text-decoration: none;
+    width: 66px;
+    height: 28px;
+    margin-left: 30px;
+    margin-top: 10px;
+    
+    font-family: 'Consolas';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    
+    color: #FFFFFF;
+}
+
+.footer {
+    position: relative;
+    width: 1200px;
+    height: 400px;
+    background: #5CB7CA;
+}
+
+.nav-item-11 {
+    margin-left: 0px;
+    text-decoration: none;
+    width: 124px;
+    height: 37px;
+    
+    font-family: 'Consolas';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 37px;
+    
+    color: #FFFFFF;
+    
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.nav-item-21 {
+    margin-left: 150px;
+    text-decoration: none;
+    width: 71px;
+    height: 37px;
+    
+    font-family: 'Consolas';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 37px;
+    
+    color: #FFFFFF;
+}
+
+.nav-item-31 {
+    margin-left: 150px;
+    text-decoration: none;
+    width: 159px;
+    height: 37px;
+    
+    font-family: 'Consolas';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 37px;
+    
+    color: #FFFFFF;
+}
+
+.nav-item-41 {
+    margin-left: 150px;
+    text-decoration: none;
+    width: 106px;
+    height: 37px;
+
+    font-family: 'Consolas';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 37px;
+
+    color: #FFFFFF;
+}
+
+.number-form {
+    position: absolute;
+    width: 300px;
+    height: 50px;
+    top: 39px;
+    margin-left: 43px;
+    background: rgba(217, 217, 217, 0.5);
+}
+
+.number-text {
+    width: 300px;
+    height: 50px;
+    
+    font-family: 'Consolas';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+}
+
+.navigation-footer {
+    padding-top: 181px;
+    margin-left: 79px;
+}
+
+.contacts {
+    display: flex;
+}
+
+.contacts-inst {
+    margin-left: 45px;
+    margin-top: 27px;
+}
+
+.contacts-tg {
+    margin-left: 73px;
+    margin-top: 27px;
+
+}
+
+.contacts-viber {
+    margin-left: 61px;
+    margin-top: 16px;
+}
+
+.footer-logo{
+    margin-left: 494px;
+    margin-top: 61px;
+    width: 108px;
+    height: 60px;
+}
+

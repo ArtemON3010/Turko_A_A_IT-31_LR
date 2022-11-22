@@ -1,0 +1,1344 @@
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 480px) {
+
+    .background {
+        width: 320px;
+        height: 1820px;
+    }
+
+    .header {
+        position: fixed;
+        display: flex;
+        width: 320px;
+        height: 80px;
+        top: 0;
+        left: 0;
+        z-index: 5;
+        padding-top: 0px;
+        margin-left: 0px;
+    }
+
+    header:before{
+        content: '';
+        position:absolute;
+        width: 300px;
+        height: 80px;
+        top: 0;
+        left: 0;
+        background-color: #51BBD2;
+    }
+
+    .header-logo {
+        width: 106px;
+        height: 58px;
+        margin-left: 0px;
+    }
+
+    .header-burger span{ 
+        width: 30px;
+        height: 2px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: #ffffff;
+        transition: all 0.5s;
+    }
+
+    .header-burger span:nth-of-type(2) {
+        top: calc(50% - 9px);
+    }
+    .header-burger span:nth-of-type(3) {
+        top: calc(50% + 9px);
+    }
+
+    .header-burger.active span:nth-of-type(1) {
+        display: none;
+    }
+    .header-burger.active span:nth-of-type(2) {
+        top: 50%;
+        transform: translate(-50%, 0%) rotate(45deg);  
+    }
+    .header-burger.active span:nth-of-type(3) {
+        top: 50%;
+        transform: translate(-50%, 0%) rotate(-45deg); 
+    }
+
+    .header-burger{
+        display: block;
+        position: relative;
+        overflow: hidden;
+        width: 30px;
+        height: 20px;
+        z-index: 5;
+    }
+
+    .header-menu {
+        margin-top: 80px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 70px;
+        height: 150px;
+        background-color: #388394;
+        transform: translateX(-100%);
+        transition: transform 0.5s;
+    }
+
+    .header-menu.active {
+        transform: translateX(0);
+    }
+
+
+    .header-line {
+       width: 300px;
+       height: 80px;
+    }
+
+    .header-list {
+        display: block;
+        padding-inline-start: 0px;
+    }
+    
+    .header-list li{
+        list-style: none;
+        margin-bottom: 20px;
+    }
+    
+
+    .nav-item-1 {
+        text-decoration: none;
+        width: 39.11px;
+        height: 30px;
+        margin-left: 10px;
+        font-family: 'Consolas';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 10px;
+        line-height: 12px;
+        align-items: center;
+        text-align: center;
+
+        color: #FFFFFF;
+    }
+    
+    .nav-item-2 {
+        margin-left: 10px;
+        text-decoration: none;
+        width: 22.39px;
+        height: 30px;
+
+        font-family: 'Consolas';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 10px;
+        line-height: 12px;
+        align-items: center;
+        text-align: center;
+
+        color: #FFFFFF;
+
+    }
+    
+    .nav-item-3 {
+        margin-left: 10px;
+        text-decoration: none;
+        width: 50.15px;
+        height: 30px;
+
+        font-family: 'Consolas';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 10px;
+        line-height: 12px;
+        align-items: center;
+        text-align: center;
+
+        color: #FFFFFF;
+
+    }
+    
+    .nav-item-4 {
+        margin-left: 10px;
+        text-decoration: none;
+        width: 33.43px;
+        height: 30px;
+
+        font-family: 'Consolas';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 10px;
+        line-height: 12px;
+        align-items: center;
+        text-align: center;
+
+        color: #FFFFFF;
+    }
+
+    
+    .sign { 
+        border-radius: 15px;
+        margin-left: 27px;
+        width: 257px;
+        height: 283px;
+    }
+ 
+    .entr {
+        margin-top: 10px;
+        margin-left: 28px;
+        width: 208px;
+        height: 50px;
+        
+        font-family: 'Consolas';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 23px;
+        text-align: center;
+        
+        color: #FFFFFF;
+        }
+    .email {
+        width: 100px;
+        height: 50px;
+        margin-left: 81px;
+        background: rgba(255, 255, 255, 0.7);
+        border-radius: 15px;
+        }
+
+    .email-text {
+        width: 72.4px;
+        height: 12.06px;
+        margin-top: 0px;
+        margin-left: 14px;
+        font-family: 'Consolas';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 18px;
+        text-align: center;
+        
+        color: rgba(0, 0, 0, 0.5);
+        }
+
+    .email-input {
+        margin-left: 14px;
+        width: 72.4px;
+        height: 12.06px;
+    }  
+
+    .sign-in {
+        width: 100px;
+        height: 50px;
+        margin-top: 18px;
+        margin-left: 81px;
+        background: #79B5CF;
+        border-radius: 15px;
+        }
+
+    .sign-in-text {
+        position: absolute;
+        text-decoration: none;
+        padding-top: 13px;
+        margin-left: 16px;
+        margin-top: 0px;
+        width: 72.4px;
+        height: 12.06px;
+        
+        font-family: 'Consolas';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 18px;
+        text-align: center;
+        
+        color: #000000;
+    
+    }
+
+    .first-text {
+        margin-top: 24px;
+        margin-left: 0px;
+        width: 257px;
+        height: 28px;
+        
+        font-family: 'Consolas';
+        font-style: italic;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 18px;
+        text-align: center;
+        
+        color: #FFFFFF;
+    }
+
+    .sign-up {
+        margin-top: 13px;
+        margin-left: 81px;
+        width: 95.24px;
+        height: 50px;
+        background: #FFFFFF;
+        border-radius: 15px;
+    }
+
+    .sign-up-text {
+        position: absolute;
+        text-decoration: none;
+        padding-top: 0px;
+        margin-left: 0.95px;
+        margin-top: 16px;
+        width: 100px;
+        height: 19px;
+
+        font-family: 'Consolas';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 11px;
+        line-height: 13px;
+        text-align: center;
+
+        color: #000000;
+    
+    }
+
+    .travel {
+        position: relative;
+        width: 292px;
+        height: 85px;
+        margin-top: 20px;
+    }
+
+    
+    .where-from {
+        width: 86px;
+        height: 40px;
+        margin-left: 13px;
+        background: rgba(217, 217, 217, 0.7);
+        border-radius: 15px;
+        }
+
+    .where-from-text {
+        margin-left: 0px;
+        margin-top: 2px;
+        margin-bottom: 5px;
+        width: 83px;
+        height: 10px;
+        
+        font-family: 'Consolas';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 10px;
+        line-height: 12px;
+        text-align: center;
+        
+        color: rgba(0, 0, 0, 0.5);
+    }
+
+    .where-from-input {
+        margin-left: 3px;
+        width: 72.4px;
+        height: 6.06px;
+    }
+
+    .where-to {
+        background: rgba(217, 217, 217, 0.7);
+        border-radius: 15px;
+        margin-left: 4px;
+        width: 86px;
+        height: 40px;
+    }
+    
+    .where-to-text {
+        margin-left: 27px;
+        margin-top: 0px;
+        width: 31px;
+        height: 10.96px;
+
+        font-family: 'Consolas';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 10px;
+        line-height: 12px;
+        text-align: center;
+
+        color: rgba(0, 0, 0, 0.5);
+    }
+    
+    .where-to-input {
+        margin-left: 3px;
+        width: 72.4px;
+        height: 6.06px;
+    }
+    
+    
+    .departure-text {
+        margin-left: 0px;
+        margin-top: 0px;
+        width: 83px;
+        height: 10px;
+
+        font-family: 'Consolas';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 10px;
+        line-height: 12px;
+        text-align: center;
+
+        color: rgba(0, 0, 0, 0.5);
+    }
+
+    .departure{
+        position: absolute;
+        width: 85.66px;
+        height: 40px;
+        margin-left: 0px;
+        left: 13px;
+        top: 45px;
+        background: rgba(217, 217, 217, 0.7);
+        border-radius: 15px;
+    }
+    
+    
+    .departure-input{
+        margin-left: 3px;
+        width: 72.4px;
+        height: 6.06px;
+    }
+
+    .duration{
+        position: absolute;
+        width: 85.66px;
+        height: 40px;
+        left: 103px;
+        margin-left: 0px;
+        top: 45px;
+        background: rgba(217, 217, 217, 0.7);
+        border-radius: 15px;
+    }
+    
+    .duration-text {
+        margin-left: 10px;
+        margin-top: 0px;
+        width: 64px;
+        height: 11px;
+
+        font-family: 'Consolas';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 10px;
+        line-height: 12px;
+        text-align: center;
+
+        color: rgba(0, 0, 0, 0.5);
+    }
+    
+    .duration-input{
+        margin-left: 3px;
+        width: 72.4px;
+        height: 6.06px;
+    }
+
+    .find{
+        position: absolute;
+        width: 86px;
+        height: 40px;
+        left: 219px;
+        margin-left: 0px;
+        top: 25px;
+        background: rgba(99, 174, 203, 0.7);
+        border-radius: 15px;
+    }
+    
+    .find-button {
+        position: absolute;
+        text-decoration: none;
+        width: 45.41px;
+        height: 23.09px;
+        margin-left: 20px;
+        margin-top: 5px;
+        
+        font-family: 'Consolas';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 10px;
+        line-height: 12px;
+        text-align: center;
+
+        color: #FFFFFF;
+    }
+
+    .hot-tour-text {
+        width: 121px;
+        height: 23px;
+
+        font-family: 'Consolas';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 23px;
+
+        color: #CC4043;
+        margin-left: 99px;
+        margin-top: 19px;
+    }
+
+    .hot-tour {
+        display: flex;
+        flex-direction: column;
+        margin-top: 9px;
+    }
+
+    .first-tour {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 291px;
+        height: 201px;
+        margin-left: 14px;
+        background: rgba(217, 217, 217, 0.7);
+        border-radius: 15px;
+    }
+    
+    .first-tour-image {
+        display: flex;
+        justify-content: center;
+    }
+    .first-tour-where {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-family: 'Consolas';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 14px;
+        text-align: center;
+
+        color: #000000;
+    }
+    
+    .first-tour-time {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    .first-tour-time-logo {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .first-tour-time-text {
+        margin-left: 10px;
+        margin-top: 0px;
+        display: flex;
+        justify-content: space-between;
+
+        font-family: 'Consolas';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 14px;
+        align-items: center;
+        text-align: center;
+
+        color: #000000;
+
+    }
+    
+    .first-tour-price {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .first-tour-price-logo {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .first-tour-price-text-one {
+        display: flex;
+        justify-content: center;
+        margin-left: 0px;
+        margin-top: 10px;
+        font-family: 'Consolas';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 14px;
+
+        color: #000000;
+        
+    }
+    
+    .first-tour-price-text-two{
+        display: flex;
+        justify-content: center;
+        margin-left: 0px;
+        margin-top: 12px;
+        font-family: 'Consolas';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 10px;
+        line-height: 12px;
+
+        color: #000000;
+    }
+    
+    .second-tour {
+        margin-top: 9px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 291px;
+        height: 201px;
+        margin-left: 14px;
+        background: rgba(217, 217, 217, 0.7);
+        border-radius: 15px;
+    }
+    
+    .second-tour-image {
+        display: flex;
+        justify-content: center;
+    }
+    .second-tour-where {
+        display: flex;
+        justify-content: center;
+        font-family: 'Consolas';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 14px;
+        text-align: center;
+
+        color: #000000;
+    }
+    
+    .second-tour-time {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    .second-tour-time-logo {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .second-tour-time-text {
+        margin-left: 10px;
+        margin-top: 0px;
+        display: flex;
+        justify-content: space-between;
+
+        font-family: 'Consolas';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 14px;
+        align-items: center;
+        text-align: center;
+
+        color: #000000;
+    }
+    
+    .second-tour-price {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .second-tour-price-logo {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .second-tour-price-text-one {
+        display: flex;
+        justify-content: center;
+        margin-left: 0px;
+        margin-top: 10px;
+        font-family: 'Consolas';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 14px;
+
+        color: #000000;
+        
+    }
+    
+    .second-tour-price-text-two{
+        display: flex;
+        justify-content: center;
+        margin-left: 0px;
+        margin-top: 12px;
+        font-family: 'Consolas';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 10px;
+        line-height: 12px;
+
+        color: #000000;
+    }
+    
+    
+    .third-tour{
+        margin-top: 9px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 291px;
+        height: 201px;
+        margin-left: 14px;
+        background: rgba(217, 217, 217, 0.7);
+        border-radius: 15px;
+    }
+    
+    .third-tour-image {
+        display: flex;
+        justify-content: center;
+    }
+    .third-tour-where {
+        display: flex;
+        justify-content: center;
+        font-family: 'Consolas';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 14px;
+        text-align: center;
+
+        color: #000000;
+    }
+    
+    .third-tour-time {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    .third-tour-time-logo {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .third-tour-time-text {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 10px;
+        margin-top: 0px;
+
+        font-family: 'Consolas';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 14px;
+        align-items: center;
+        text-align: center;
+
+        color: #000000;
+    }
+    
+    .third-tour-price {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .third-tour-price-logo {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .third-tour-price-text-one {
+        display: flex;
+        justify-content: center;
+        margin-left: 0px;
+        margin-top: 10px;
+        font-family: 'Consolas';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 14px;
+
+        color: #000000;
+        
+    }
+    
+    .third-tour-price-text-two{
+        display: flex;
+        justify-content: center;
+        margin-left: 0px;
+        margin-top: 12px;
+        font-family: 'Consolas';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 10px;
+        line-height: 12px;
+
+        color: #000000;
+    }
+    
+    .random-travel-form {
+        width: 187px;
+        height: 26px;
+        margin-left: 65px;
+        margin-top: 14px;
+        background: rgba(217, 217, 217, 0.7);
+    }
+    
+    .random-travel-text {
+        width: 189px;
+        height: 12.17px;
+
+        font-family: 'Consolas';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 23px;
+
+        color: #FFFFFF;
+
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    
+    .random-travel{
+        position: relative;
+        width: 291px;
+        height: 593px;
+
+        background: rgba(217, 217, 217, 0.7);
+        border-radius: 15px;
+    }
+    
+    .random-travel-try {
+        position: absolute;
+        width: 231px;
+        height: 16px;
+        margin-left: 0px;
+        margin-top: 0px;
+        padding-top: 0px;
+        left: 28px;
+        top: 15px;
+        font-family: 'Consolas';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+
+        color: #000000;
+        
+    }
+    
+    .random-travel-quest {
+        position: absolute;
+        width: 178px;
+        height: 16px;
+        margin-left: 0px;
+        margin-top: 0px;
+        left: 14px;
+        top: 54px;
+        font-family: 'Consolas';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        
+        color: #000000;
+    }
+    
+    .proposition {
+        display: content;
+    }
+    
+    .america {
+        position: absolute;
+        width: 123px;
+        height: 128.83px;
+        margin-top: 0px;
+        margin-left: 0px;
+        left: 14px;
+        top: 92px;
+    }
+    
+    .america-image {
+        position: absolute;
+        width: 123px;
+        height: 79.59px;
+    }
+    
+    .america-form {
+        position: absolute;
+        width: 123px;
+        height: 38.83px;
+        margin-top: 0px;
+        margin-left: 0px;
+        top: 90px;
+        background: rgba(217, 217, 217, 0.7);
+    }
+    
+    .america-text {
+        position: absolute;
+        width: 99px;
+        height: 31px;
+        margin-top: 3px;
+        margin-left: 12px;
+        font-family: 'Consolas';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 10px;
+        line-height: 12px;
+        align-items: center;
+        text-align: center;
+
+        color: #000000;
+    
+    }
+    
+    .europe {
+        position: absolute;
+        width: 127px;
+        height: 128.83px;
+        margin-top: 0px;
+        margin-left: 0px;
+        left: 146px;
+        top: 92px;
+
+    }
+    
+    .europe-image {
+        position: absolute;
+        width: 123px;
+        height: 82px;
+    }
+    
+    .europe-form {
+        position: absolute;
+        margin-top: 0px;
+        margin-left: 0px;
+        top: 90px;
+        width: 123px;
+        height: 38.83px;
+
+        background: rgba(217, 217, 217, 0.7);
+    }
+    
+    .europe-text {
+        position: absolute;
+        width: 99px;
+        height: 31px;
+        margin-top: 3px;
+        margin-left: 12px;
+        font-family: 'Consolas';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 10px;
+        line-height: 12px;
+        align-items: center;
+        text-align: center;
+
+        color: #000000;
+    
+    }
+    
+    .asia {
+        position: absolute;
+        margin-top: 0px;
+        margin-left: 0px;
+        left: 17px;
+        top: 322px;
+        width: 123px;
+        height: 127.83px;
+    }
+    
+    .asia-image {
+        position: absolute;
+        width: 123px;
+        height: 79.59px;
+    }
+    
+    .asia-form {
+        position: absolute;
+        margin-top: 0px;
+        margin-left: 0px;
+        top: 90px;
+        width: 123px;
+        height: 38.83px;
+        
+        background: rgba(217, 217, 217, 0.7);
+    }
+    
+    .asia-text {
+        position: absolute;
+        width: 99px;
+        height: 31.21px;
+        margin-top: 3px;
+        margin-left: 12px;
+        font-family: 'Consolas';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 10px;
+        line-height: 12px;
+        align-items: center;
+        text-align: center;
+
+        color: #000000;
+    
+    }
+    
+    .random {
+        position: absolute;
+        width: 123px;
+        height: 127.83px;
+        margin-top: 0px;
+        margin-left: 0px;
+        left: 150px;
+        top: 322px;
+    }
+    
+    .random-image {
+        position: absolute;
+        width: 123px;
+        height: 80px;
+    }
+    
+    .random-form {
+        position: absolute;
+        width: 123px;
+        height: 38.83px;
+        margin-top: 0px;
+        margin-left: 0px;
+        top: 90px;
+        background: rgba(123, 182, 208, 0.7);
+    }
+    
+    .random-text {
+        position: absolute;
+        width: 99px;
+        height: 31.21px;
+        margin-top: 3px;
+        margin-left: 12px;
+        font-family: 'Consolas';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 10px;
+        line-height: 12px;
+        align-items: center;
+        text-align: center;
+
+        color: #000000;
+    
+    }
+   
+    .photo-tourists{
+        width: 320px;
+        height: 273px;
+        
+        background: #D9D9D9;
+    }
+
+    .photo-tourists-text {
+        width: 251px;
+        height: 28px;
+        margin-top: 0px;
+        padding-top: 123px;
+        margin-left: 34px;
+        font-family: 'Consolas';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 28px;
+        text-align: center;
+
+        color: #000000;
+    }
+
+    img {
+        object-fit: cover;
+    }
+
+    .transparent-bg {
+        width: 320px;
+        height: 420px;
+    }
+   
+    .photo-tourists-slides{
+        list-style:none;
+        margin:0;
+        padding:0;
+        object-fit: cover;
+        height: 420px;
+    }
+    
+    .photo-tourists-slides,
+    .photo-tourists-slides:after{
+        width: 320px;
+        height: 420px;
+        top:0px;
+        object-fit: cover;
+        left:0px;
+    }
+    
+    .photo-tourists-slides:after { 
+        content: '';
+        object-fit: cover;
+        height: 420px;
+        background: transparent url(../image/photo-1-mob.png) repeat top left;
+    }
+    
+    .photo-tourists-slides li{
+        width: 320px;
+        height: 420px;
+        position:absolute;
+        top:2093;
+        left:0;
+        object-fit: cover;
+        background-size:cover;
+        background-repeat:no-repeat;
+        opacity:0;
+        -webkit-animation: anim_slides 18s linear infinite 0s;
+        -moz-animation: anim_slides 18s linear infinite 0s;
+        -o-animation: anim_slides 18s linear infinite 0s;
+        -ms-animation: anim_slides 18s linear infinite 0s;
+        animation: anim_slides 18s linear infinite 0s;
+    }
+    
+    .photo-tourists-slides li:nth-child(1){
+        background-image: url(../image/photo-1-mob.png) 
+    }
+    
+    .photo-tourists-slides li:nth-child(2){
+        -webkit-animation-delay: 6.0s;
+        -moz-animation-delay: 6.0s;
+        background-image: url(../image/photo-2-mob.png) 
+    }
+    
+    .photo-tourists-slides li:nth-child(3){
+        -webkit-animation-delay: 12.0s;
+        -moz-animation-delay: 12.0s;
+        background-image: url(../image/photo-3-mob.png) 
+    }
+    
+    @-webkit-keyframes anim_slides {
+        0% {opacity:0;}
+        6% {opacity:1;}
+        24% {opacity:1;}
+        30% {opacity:0;}
+        100% {opacity:0;}
+    }
+    
+    @-moz-keyframes anim_slides {
+        0% {opacity:0;}
+        6% {opacity:1;}
+        24% {opacity:1;}
+        30% {opacity:0;}
+        100% {opacity:0;}
+    }
+    
+
+    .about-us {
+        width: 320px;
+        height: 320px;
+
+        background: rgba(217, 217, 217, 0.7);
+        border-radius: 15px;
+    }
+
+    .about-us-first-text {
+        padding-top: 21.17px;
+        margin-left: 14.3px;
+        width: 103.37px;
+        height: 25.92px;
+
+        font-family: 'Consolas';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 23px;
+
+        color: #000000;
+    }
+    .about-us-second-text {
+        width: 277.31px;
+        height: 149.19px;
+        margin-top: 53.92px;
+        margin-left: 21px;
+        font-family: 'Consolas';
+        font-style: italic;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        text-align: center;
+        
+        color: #000000;
+    }
+
+    .form{
+        width: 86px;
+        height: 40px;
+        left: 219px;
+        margin-left: 110px;
+        top: 25px;
+        background: rgba(99, 174, 203, 0.7);
+        border-radius: 15px;
+    }
+    
+    .form-button {
+        position: absolute;
+        text-decoration: none;
+        width: 45.41px;
+        height: 23.09px;
+        margin-left: 20px;
+        margin-top: 5px;
+        
+        font-family: 'Consolas';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 10px;
+        line-height: 12px;
+        text-align: center;
+
+        color: #FFFFFF;
+    }
+
+    .footer {
+        position: relative;
+        width: 320px;
+        height: 230px;
+        
+        background: #5CB7CA;
+    }
+    
+    .number-form {
+        position: absolute;
+        width: 158px;
+        height: 26.33px;        
+        top: 15px;
+        margin-left: 16px;
+        background: rgba(217, 217, 217, 0.5);
+    }
+    
+    .number-text {
+        width: 158px;
+        height: 26.33px;
+
+        font-family: 'Consolas';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 14px;
+        align-items: center;
+        text-align: center;
+
+        color: #000000;
+    }
+    
+    .navigation-footer {
+        display: flex;
+        padding-top: 127px;
+        margin-left: 14px;
+        width: 287px;
+        height: 30px;
+    }
+
+    .nav-item-11 {
+        text-decoration: none;
+        width: 39.11px;
+        height: 30px;
+        margin-left: 10px;
+        font-family: 'Consolas';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 10px;
+        line-height: 12px;
+        align-items: center;
+        text-align: center;
+
+        color: #FFFFFF;
+    }
+    
+    .nav-item-21 {
+        margin-left: 30px;
+        text-decoration: none;
+        width: 22.39px;
+        height: 30px;
+
+        font-family: 'Consolas';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 10px;
+        line-height: 12px;
+        align-items: center;
+        text-align: center;
+
+        color: #FFFFFF;
+
+    }
+    
+    .nav-item-31 {
+        margin-left: 30px;
+        text-decoration: none;
+        width: 50.15px;
+        height: 30px;
+
+        font-family: 'Consolas';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 10px;
+        line-height: 12px;
+        align-items: center;
+        text-align: center;
+
+        color: #FFFFFF;
+
+    }
+    
+    .nav-item-41 {
+        margin-left: 30px;
+        text-decoration: none;
+        width: 33.43px;
+        height: 30px;
+
+        font-family: 'Consolas';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 10px;
+        line-height: 12px;
+        align-items: center;
+        text-align: center;
+
+        color: #FFFFFF;
+    }
+    
+    .contacts {
+        display: flex;
+    }
+    
+    .contacts-inst {
+        margin-left: 16px;
+        margin-top: 0px;
+    }
+    
+    .contacts-tg {
+        margin-left: 5px;
+        margin-top: 0px;
+    
+    }
+    
+    .contacts-viber {
+        margin-left: 3px;
+        margin-top: 0px;
+    }
+    
+    .footer-logo{
+        margin-left: 18px;
+        margin-top: 0px;
+        width: 108px;
+        height: 60px;
+        
+        background: rgba(255, 255, 255, 0.5);
+    }
+}
+

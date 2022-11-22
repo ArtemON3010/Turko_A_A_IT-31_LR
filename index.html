@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CarelessTrip</title>
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/media.css" type="text/css">
+    <script type="text/javascript" src=""></script>
+   
+</head>
+<body>
+<div class="background">
+    <div class="header"> 
+            <div class="header-line">
+                <div class="header-logo">   
+                    <img src="assets/image/CarelessTrip.png" alt="">
+                </div>
+                <div class="header-burger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="header-menu">
+                    <nav>
+                        <ul class="header-list">
+                            <li> <a class="nav-item-1" href="#main">Головна</a></li>
+                            <li> <a class="nav-item-2" href="#tour">Тури</a></li>
+                            <li> <a class="nav-item-3" href="#country">Країни</a></li>
+                            <li> <a class="nav-item-4" href="#contacts">Контакти</a></li>
+                        </ul>
+                    </nav>
+                    <script type="text/javascript">
+                        let headerBurger = document.querySelector('.header-burger');
+                        let headerMenu = document.querySelector('.header-menu');
+                        
+    
+                        headerBurger.addEventListener('click', function(){
+                        headerBurger.classList.toggle('active');
+                        headerMenu.classList.toggle('active');
+                        })
+                    </script>
+                </div>
+            </div>
+    </div>
+
+    <div id="main" class="sign">
+        <h1 class="entr">Вхід</h1>
+            <div class="email"> 
+                <h1 class="email-text">Ел.Пошта</h1>
+                <input class="email-input" type="email" name="" id="">
+            </div>
+            <div class="sign-in">    
+                <a class="sign-in-text" href="#main">Вхід</a>
+            </div>
+                <h1 class="first-text">Вперше на сайті?</h1>
+            <div class="sign-up">
+                <a class="sign-up-text" href="#main">Зареєструватися</a>
+            </div>
+    </div>
+    <div id="tour" class="travel">
+        <div class="where-from">
+            <h1 class="where-from-text">Звідки</h1>
+            <input class="where-from-input" type="where-from">
+        </div>
+        <div class="where-to">
+            <h1 class="where-to-text">Куди</h1>
+            <input class="where-to-input" type="where-to">
+        </div>
+        <div class="departure">
+            <h1 class="departure-text">Дата виїзду</h1>
+            <input class="departure-input" type="departure">
+        </div>
+        <div class="duration">
+            <h1 class="duration-text">Тривалість</h1>
+            <input class="duration-input" type="duration">
+        </div>
+        <div class="find">
+            <a class="find-button" href="https://www.google.com.ua/maps/@47.2616233,33.0862311,6z?hl=ua&authuser=0">Найти</a>
+        </div>
+    </div>
+        <h1 class="hot-tour-text">Гарячі тури</h1>
+    <div class="hot-tour">
+        <div class="first-tour">
+            <div class="first-tour-image">
+                <a class="tour-1" href="https://www.uvidpustku.com/tag/sharm-el-shejh/">
+                    <picture>
+                        <source srcset="assets/image/tour-1-mob.png" media="(max-width: 480px)">
+                        <img src="assets/image/tour-1.png" alt="">
+                    </picture>
+                </a>  
+            </div>
+            <div class="first-tour-where">
+                Шарм-Ель-Шейх
+            </div>
+            <div class="first-tour-time">
+                <div class="first-tour-time-logo"> 
+                    <picture>
+                        <source srcset="assets/image/date-1-mob.png" media="(max-width: 480px)">
+                        <img src="assets/image/date-1.png" alt="">
+                    </picture>  
+                </div>
+                <div class="first-tour-time-text">   
+                    7 Днів
+                </div>
+            </div>
+            <div class="first-tour-price">
+                <div class="first-tour-price-logo"> 
+                    <picture>
+                        <source srcset="assets/image/dollar-1-mob.png" media="(max-width: 480px)">
+                        <img src="assets/image/dollar-1.png" alt="">
+                    </picture>  
+                </div>
+                <div class="first-tour-price-text-one">   
+                        30 000  грн.
+                </div>
+                <div class="first-tour-price-text-two">   
+                        на двох 
+                </div>
+            </div>
+        </div>
+        <div class="second-tour">
+            <div class="second-tour-image">
+                <a class="tour-2" href="https://www.ministertours.com/ua">
+                    <picture>
+                        <source srcset="assets/image/tour-2-mob.png" media="(max-width: 480px)">
+                        <img src="assets/image/tour-2.png" alt="">
+                    </picture>
+                </a>  
+            </div>
+            <div class="second-tour-where">
+                Аланія
+            </div>
+            <div class="second-tour-time">
+                <div class="second-tour-time-logo">
+                    <picture>
+                        <source srcset="assets/image/date-1-mob.png" media="(max-width: 480px)">
+                        <img src="assets/image/date-1.png"">
+                    </picture>   
+                </div>
+                <div class="second-tour-time-text">   
+                    7 Днів
+                </div>
+            </div>
+            <div class="second-tour-price">
+                <div class="second-tour-price-logo"> 
+                    <picture>
+                        <source srcset="assets/image/dollar-1-mob.png" media="(max-width: 480px)">
+                        <img src="assets/image/dollar-1.png" alt="">
+                    </picture>  
+                </div>
+                <div class="second-tour-price-text-one">   
+                        21 000  грн.
+                </div>
+                <div class="second-tour-price-text-two">   
+                        на двох 
+                </div>
+            </div>
+
+        </div>
+        <div class="third-tour">
+            <div class="third-tour-image">
+                <a class="tour-3" href="https://www.accordtour.com/vsi_avtobusni_tury/bolhariya/soniachnyi_bereh">
+                    <picture>
+                        <source srcset="assets/image/tour-3-mob.png" media="(max-width: 480px)">
+                        <img src="assets/image/tour-3.png" alt="">
+                    </picture>
+                </a>  
+            </div>
+            <div class="third-tour-where">
+                Сонячний берег
+            </div>
+            <div class="third-tour-time">
+                <div class="third-tour-time-logo">
+                    <picture>
+                        <source srcset="assets/image/date-1-mob.png" media="(max-width: 480px)">
+                        <img src="assets/image/date-1.png" alt="">
+                    </picture>   
+                </div>
+                <div class="third-tour-time-text">   
+                    7 Днів
+                </div>
+            </div>
+            <div class="third-tour-price">
+                <div class="third-tour-price-logo"> 
+                    <picture>
+                        <source srcset="assets/image/dollar-1-mob.png" media="(max-width: 480px)">
+                        <img src="assets/image/dollar-1.png" alt="">
+                    </picture>  
+                </div>
+                <div class="third-tour-price-text-one">   
+                        10 000  грн.
+                </div>
+                <div class="third-tour-price-text-two">   
+                        на двох 
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="country" class="random-travel-form">
+        <h1 class="random-travel-text">Рандомні подорожі</h1>
+    </div>
+    <div class="random-travel">
+        <div class="random-travel-try">   
+            Спробуйте зарандомити подорож! 
+        </div>
+        <div class="random-travel-quest">   
+            Куди ви хочете поїхати?
+        </div>
+        <div class="proposition">
+            <div class="america">
+                <a class="america-image" href="https://www.google.com.ua/maps/place/%D0%A1%D0%BE%D0%B5%D0%B4%D0%B8%D0%BD%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5+%D0%A8%D1%82%D0%B0%D1%82%D1%8B+%D0%90%D0%BC%D0%B5%D1%80%D0%B8%D0%BA%D0%B8/@36.2408038,-113.7584948,4z/data=!3m1!4b1!4m5!3m4!1s0x54eab584e432360b:0x1c3bb99243deb742!8m2!3d37.09024!4d-95.712891?hl=ua&authuser=0">
+                    <picture>
+                        <source srcset="assets/image/america-mob.png" media="(max-width: 480px)">
+                        <img src="assets/image/america.png" alt="">
+                    </picture>
+                </a> 
+                <div class="america-form">   
+                        <h1 class="america-text">Америка</h1>
+                </div> 
+            </div>
+            <div class="europe">
+                <a class="europe-image" href="https://www.google.com.ua/maps/place/%D0%95%D0%B2%D1%80%D0%BE%D0%BF%D0%B0/@48.1241753,4.1210579,4z/data=!3m1!4b1!4m5!3m4!1s0x46ed8886cfadda85:0x72ef99e6b3fcf079!8m2!3d54.5259614!4d15.2551187?hl=ua&authuser=0">
+                    <picture>
+                        <source srcset="assets/image/europe-mob.png" media="(max-width: 480px)">
+                        <img src="assets/image/europe.png" alt="">
+                    </picture>
+                    </a> 
+                    <div class="europe-form">   
+                            <h1 class="europe-text">Європа</h1>
+                    </div> 
+            </div>
+            <div class="asia">
+                <a class="asia-image" href="https://www.google.com.ua/maps/place/%D0%90%D0%B7%D0%B8%D1%8F/@29,100,3z/data=!3m1!4b1!4m5!3m4!1s0x3663f18a24cbe857:0xa9416bfcd3a0f459!8m2!3d34.047863!4d100.6196553?hl=ua&authuser=0">
+                    <picture>
+                        <source srcset="assets/image/asia-mob.png" media="(max-width: 480px)">
+                        <img src="assets/image/asia.png" alt="">
+                    </picture>
+                    </a> 
+                    <div class="asia-form">   
+                            <h1 class="asia-text">Азія</h1>
+                    </div> 
+            </div>
+            <div class="random">
+                <a class="random-image" href="https://ultragenerator-com.translate.goog/countries/?_x_tr_sl=ru&_x_tr_tl=uk&_x_tr_hl=uk&_x_tr_pto=sc">
+                    <picture>
+                        <source srcset="assets/image/random-mob.png" media="(max-width: 480px)">
+                        <img src="assets/image/random.png" alt="">
+                    </picture>
+                    </a> 
+                    <div class="random-form">   
+                            <h1 class="random-text">Зарандомити</h1>
+                    </div> 
+            </div>
+        </div>
+        
+    </div>
+</div>
+    <div class="photo-tourists">
+        <h1 class="photo-tourists-text">Фото наших туристів</h1>
+    </div>
+    <div class="transparent-bg">
+        <ul class="photo-tourists-slides">
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+    <div class="about-us">
+        <div class="about-us-first-text">
+            Про нас
+        </div>
+        <div class="about-us-second-text">
+            CarelessTrip - це сервіс рандомних подорожей.Багато людей стикаються з проблемою вибору маршруту подорожі та з багатьма нюансами під час вибору хорошого готелю: чистотою номеру, якістю обслуговування, виду за вікном і тд. 
+Тому у нас виникла ідея вирішення цієї проблеми – “Сервіс рандомних подорожей”.
+        </div>
+    <div class="form">
+        <a class="form-button" href="form.html">Замовити тур</a>
+    </div>
+    </div>
+    <video class="video1" width="320" height="180" autoplay muted>
+        <source src="assets/travel.mp4" type="video/mp4">
+    </video>
+   
+    <div class="footer">
+        <div class="number-form">
+            <h1 class="number-text">+380 96 566 86 63</h1>
+        </div>
+        <div class="navigation-footer">
+            <a class="nav-item-11" href="#main">Головна</a>
+            <a class="nav-item-21" href="#tour">Тури</a>
+            <a class="nav-item-31" href="#country">Екскурсії</a>
+            <a class="nav-item-41" href="#contacts">Країни</a>
+        </div>
+        <div id="contacts" class="contacts">
+            <div class="contacts-inst">
+                <a class="contacts-inst-click" href="https://www.instagram.com/trip__makers/">
+                    <picture>
+                        <source srcset="assets/image/instagram-1-mob.png" media="(max-width: 480px)">
+                        <img src="assets/image/instagram1.png" alt="">
+                    </picture>
+                </a>
+            </div>
+            <div class="contacts-tg">
+                <a class="contacts-tg-click" href="https://web.telegram.org/k/#@TravelTango">
+                    <picture>
+                        <source srcset="assets/image/telegram1-mob.png" media="(max-width: 480px)">
+                        <img src="assets/image/telegram1.png" alt="">
+                    </picture>
+                </a>
+            </div>
+            <div class="contacts-viber">
+                <a class="contacts-viber-click" href="https://invite.viber.com/?g2=AQA699169cscEk0ZCxq%2Bp31rTC4PjQOPCuLwoiJhfhnZ56ESIFK4OIfNoIJMm8Wl">
+                    <picture>
+                        <source srcset="assets/image/viber1-mob.png" media="(max-width: 480px)">
+                        <img src="assets/image/viber1.png" alt="">
+                    </picture>
+                </a>
+            </div>
+            <div class="footer-logo">
+                <img src="assets/image/CarelessTrip.png" alt="">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+
